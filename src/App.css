@@ -1,1 +1,32 @@
 /* write your css here */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.section{
+    /* border:  2px solid red; */
+    
+}
+.bgd{
+   background-color: #131C24;
+}
+.tbt{
+    color:#17212B;
+}
+.bgc{
+    background-color:#17212B ;
+}
+::selection{
+    color: #4FE191;
+}
+.bgl{
+  background-color: #4FE191;
+}
+.blb{
+    background-color: #63ACFF;
+}
+.byl{
+    background-color: #D8C451;
+}
