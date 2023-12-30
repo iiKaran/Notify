@@ -101,15 +101,15 @@ export default function PlayGround() {
       )}
 
       {inputModal && (
-        <div className="bgc flex flex-col  w-[40vw] min-h-[60vh] rounded-sm text-zinc-400 ">
-          <div className="text-center font-semibold text-[19px] text-zinc-400 mt-4">
+        <div className="bgc flex flex-col w-[90vw] lg:w-[80vw] xl:w-[40vw] min-h-[60vh] rounded-sm text-zinc-400 ">
+          <div className="w-[90%] mx-auto font-semibold text-[19px] text-zinc-400 mt-4">
             Type New Note ...
           </div>
           <label
             htmlFor="heading"
-            className="flex flex-col gap-2 w-[90%] mx-auto mt-12"
+            className="flex flex-col  jusify-center  gap-2 w-[90%] mx-auto mt-12"
           >
-            <span className="text-sm">Enter Heading For Note</span>
+            <span className="text-sm ">Enter Heading For Note</span>
             <input
               type="text"
               placeholder="Heading"
@@ -151,7 +151,7 @@ export default function PlayGround() {
               value={noteData.priority}
               onChange={changeHandler}
             >
-              <option value="high">High Priority</option>
+              <option value="high" selected>High Priority</option>
               <option value="med">Medium Priority</option>
               <option value="low">Low Priority</option>
             </select>
